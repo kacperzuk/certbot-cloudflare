@@ -1,4 +1,4 @@
-FROM python:2
+FROM python:3
 
 ENTRYPOINT [ "certbot" ]
 VOLUME /etc/letsencrypt /var/lib/letsencrypt
